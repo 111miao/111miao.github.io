@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>雪糕记忆</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="all,follow">
+  <!-- Bootstrap CSS-->
+  <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+  <!-- Font Awesome CSS-->
+  <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+  <!-- Custom icon font-->
+  <link rel="stylesheet" href="css/fontastic.css">
+  <!-- Google fonts - Open Sans-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+  <!-- Fancybox-->
+  <link rel="stylesheet" href="vendor/@fancyapps/fancybox/jquery.fancybox.min.css">
+  <!-- theme stylesheet-->
+  <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+  <!-- Custom stylesheet - for your changes-->
+  <link rel="stylesheet" href="css/custom.css">
+  <!-- Favicon-->
+  <link rel="shortcut icon" href="favicon.png">
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <link rel="stylesheet" href="css/shichang.css"/>
+  <link href="css/creative.min.css" rel="stylesheet">
+</head>
+<body id="page-top" background="img/back1.jpg"  style="background-color: #f7e1b5">
+<header class="masthead text-center text-white d-flex">
+  <div class="container my-auto">
+    <div class="row">
+      <div class="col-lg-12 mx-auto">
+        <h1 class="text-uppercase" style="font-size: 86px">
+          <strong>雪糕记忆</strong>
+        </h1>
+        <hr style="color: #f7e1b5">
+      </div>
+      <div class="col-lg-10 mx-auto" >
+        <p class="text-faded mb-5" style="font-size: 50px">你也在怀念那个雪糕自由的时代吗</p>
+        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about" style="background-color: #f7e1b5">点击开始</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="intro" id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-16">
+        <h2 class="h3">导语</h2>
+        <br>
+        <p class="text-big">炎炎夏日，雪糕因其物美价廉而成为很多人解暑纳凉的不二选择，然而今夏，雪糕却因其高昂的价格频引热议，被戏称为“雪糕刺客”。消费者随手拿起一支“其貌不扬”的雪糕，结账却可能被其出人意料的价格“刺上一剑”。“一不小心被雪糕刺客袭击了“、“不要随便拿不认识的雪糕”玩笑的背后是人们对“雪糕自由”的那段记忆的怀念。</p>
+      </div>
+      <div class="col-lg-16">
+        <br>
+        <p class="text-big">在记忆的长河里慢慢回溯，却发现，一支小小的雪糕，竟也有百年的发展历史，见证着中国老百姓生活的“沧桑巨变”。</p>
+        <br>
+        <h2 class="h3">点击时间轴进行切换</h2>
+        <div id="chart" style="width: 1200px;height: 500px;"></div>
+      </div>
+      <div class="col-lg-16">
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <h2 class="h3">1.雪糕的诞生</h2>
+      </div>
+      <div class="caption" style="height: 500px;width: 1200px;background-color: #f7e1b5;">
+        <p  class="text-big">
+          <br>
+          中国的<span style="font-weight: bold">第一支雪糕</span>，诞生在“四大火炉”城市之一：武汉。
+          <br>
+          1900年，英国商人柯塞恩从遥远的大英帝国来到中国武汉，他发现，在炎热的夏季，人们有时会含着冰块来解暑。然而在当时的清朝，冰块的主要来源是冰窖存储的天然冰，产量有限，且其运输与保存的成本都相对较高，这让武汉出现了一冰难求的现象。柯塞恩机敏地嗅到了商机，1904年在汉口法租界开了一家机器制冰厂——和利制冰厂，这既是<span style="font-weight: bold">中国第一家机器制冰厂</span>，也是中国土地上第一只雪糕的诞生地，中国雪糕的故事就此拉开序幕。
+          <br>
+          与此同时，在拥有广阔冰原的东北大地上，雪糕在哈尔滨中央大街的顶级饭店（马迭尔餐厅）闪亮登场，对于当时的哈尔滨市民而言，虽然不能坐在饭店里一享西式大餐的饕餮盛宴，但能吃到一根马迭尔冰棍，也足以成为当时的顶流。
+          <br>
+          1913年，美国商人海宁生创立蛋品公司海宁洋行。1932年海宁洋行成为了中国第一家大规模生产冷饮的工厂，其美女牌冰淇淋垄断市场，美女牌的双熊雪糕、三色雪糕、冰结涟棒冰都红极一时。</p>
+      </div>
+        <div class="container-fluid p-0">
+          <div class="row no-gutters popup-gallery">
+            <div class="col-lg-4 col-sm-6">
+              <a class="portfolio-box" href="img/f1.jpg">
+                <img class="img-fluid" src="img/f1.jpg" alt="">
+                <div class="portfolio-box-caption">
+                  <div class="portfolio-box-caption-content">
+                    <div class="project-category text-faded">
+                      新中国成立以前
+                    </div>
+                    <div class="project-name">
+                      卖手工冰棍的小摊
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <a class="portfolio-box" href="img/f2.jpg">
+                <img class="img-fluid" src="img/f2.jpg" alt="">
+                <div class="portfolio-box-caption">
+                  <div class="portfolio-box-caption-content">
+                    <div class="project-category text-faded">
+                      新中国成立以前
+                    </div>
+                    <div class="project-name">
+                      第一家专门生产冰棍的工厂
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <a class="portfolio-box" href="img/f3.webp">
+                <img class="img-fluid" src="img/f3.webp" alt="">
+                <div class="portfolio-box-caption">
+                  <div class="portfolio-box-caption-content">
+                    <div class="project-category text-faded">
+                      新中国成立以前
+                    </div>
+                    <div class="project-name">
+                      冰棍在夏天老少咸宜
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <a class="portfolio-box" href="img/f4.jpg">
+                <img class="img-fluid" src="img/f4.jpg" alt="">
+                <div class="portfolio-box-caption">
+                  <div class="portfolio-box-caption-content">
+                    <div class="project-category text-faded">
+                      新中国成立以前
+                    </div>
+                    <div class="project-name">
+                      冰棍用泡沫箱和棉被储存保温
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <a class="portfolio-box" href="img/f5.jpg">
+                <img class="img-fluid" src="img/f5.jpg" alt="">
+                <div class="portfolio-box-caption">
+                  <div class="portfolio-box-caption-content">
+                    <div class="project-category text-faded">
+                      新中国成立以前
+                    </div>
+                    <div class="project-name">
+                      武汉和利制冰厂
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <a class="portfolio-box" href="img/f6.png">
+                <img class="img-fluid" src="img/f6.png" alt="">
+                <div class="portfolio-box-caption">
+                  <div class="portfolio-box-caption-content">
+                    <div class="project-category text-faded">
+                      新中国成立以前
+                    </div>
+                    <div class="project-name">
+                      冰淇淋广告
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-16">
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+            </div>
+          </div>
+        </div>
+<!-- 2 -->
+      <div class="col-lg-6">
+        <h2 class="h3">2.一片“光明”</h2>
+      </div>
+      <div class="caption" style="height: 500px;width: 1200px;background-color: #f7e1b5;">
+        <p  class="text-big">
+          <br>
+          新中国成立后，海宁洋行收归国有，改为国营上海益民食品一厂，但美女牌仍在海宁生手中。1950年，益民食品厂推出“光明”牌冷饮，寓意<span style="font-weight: bold">“解放了，天亮了，新中国一片光明”</span>。职工们开着一辆改装的旧卡车走上上海街头，一路用大喇叭宣传品牌，免费为市民送上一支支光明牌棒冰，使得 “中国人食用中国货”等口号深入人心。国货“光明牌”正式问世，打破了美女牌一家独大的局面。
+          <br>
+          经过不懈努力，“光明牌”逐渐取代“美女牌”在雪糕市场的霸主地位，直至 1993 年，光明雪糕都保持着全国第一的市场占有率。
+          <br>
+          在光明不断前行时，全国的冷饮行业也在蓬勃发展，但受限于当时的冷链技术、物流运输等，雪糕生意的<span style="font-weight: bold">区域化</span>特点明显，很多城市做起了自己的品牌。在那个物质匮乏的时代里，生产着物美价廉的雪糕，它们被棉被捂着、被暖瓶盛着、冰柜装着，为当地的人民在炎热的夏日带去了冰爽的记忆，“卖冰棍哟……卖冰棍哟……”悠长的吆喝声是整个夏天里最动听的旋律。
+          </p>
+      </div>
+      <div class="container-fluid p-0">
+        <div class="row no-gutters popup-gallery">
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/s1.jpg">
+              <img class="img-fluid" src="img/s1.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    90年代以前
+                  </div>
+                  <div class="project-name">
+                    生产光明雪糕的车间
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/s2.jpg">
+              <img class="img-fluid" src="img/s2.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    90年代以前
+                  </div>
+                  <div class="project-name">
+                    第一家正式注册的国产雪糕企业
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/s3.jpg">
+              <img class="img-fluid" src="img/s3.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    90年代以前
+                  </div>
+                  <div class="project-name">
+                    光明雪糕走上街头向人民宣传
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/s4.jpg">
+              <img class="img-fluid" src="img/s4.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    90年代以前
+                  </div>
+                  <div class="project-name">
+                    生产雪糕的工厂
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/s5.jpg">
+              <img class="img-fluid" src="img/s5.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    90年代以前
+                  </div>
+                  <div class="project-name">
+                    雪糕这时用纸包装
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/s6.jpg">
+              <img class="img-fluid" src="img/s6.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    90年代以前
+                  </div>
+                  <div class="project-name">
+                    一位父亲带着女儿买雪糕
+                  </div>
+                </div>
+              </div>
+            </a>
+            <div class="col-lg-16">
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+            </div>
+          </div>
+        </div>
+      </div>
+<!-- 3 -->
+      <div class="col-lg-5">
+        <h2 class="h3">3.大爆炸时期</h2>
+        <p>&nbsp;</p>
+        <p class="text-big">
+          20世纪90年代，改革春风吹满地，中国雪糕迎来了<span style="font-weight: bold">大爆炸时期</span>。中国民营雪糕厂如雨后春笋般出现，以八喜、和路雪、哈根达斯为代表的外资品牌也同期大举进入中国，中国雪糕市场进入百花齐放、快速成长的阶段。“老冰棍、光明砖、小布丁、冰工厂、绿色心情”等雪糕名字承包了90后的童年记忆，也记录了“爱她，就带她吃哈根达斯”的青春岁月。
+        <br>进入新世纪，中国城镇化进程加速，物流条件跟着升级，从草原走出的蒙牛、伊利迅速占领全国主要市场份额，从大型商超到小卖部，随处可见。</p>
+      </div>
+      <div class="col-md-7" id="chart-container">
+      </div>
+      <div class="container-fluid p-0">
+        <div class="row no-gutters popup-gallery">
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/1.jpg">
+              <img class="img-fluid" src="img/1.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    90年代后
+                  </div>
+                  <div class="project-name">
+                    雪糕的形式逐渐多样化
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/2.jpg">
+              <img class="img-fluid" src="img/2.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    90年代后
+                  </div>
+                  <div class="project-name">
+                    商店里出现专门存放雪糕的冰柜
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/3.jpg">
+              <img class="img-fluid" src="img/3.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    90年代后
+                  </div>
+                  <div class="project-name">
+                    越来越多的地区有了自己的品牌
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/4.jpg">
+              <img class="img-fluid" src="img/4.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    90年代后
+                  </div>
+                  <div class="project-name">
+                    奶香绵密是90与00后最难忘的滋味
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/5.jpg">
+              <img class="img-fluid" src="img/5.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    90年代后
+                  </div>
+                  <div class="project-name">
+                    一根能吃一下午
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/6.jpg">
+              <img class="img-fluid" src="img/6.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    90年代后
+                  </div>
+                  <div class="project-name">
+                    物美价廉的雪糕让人眼花缭乱
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-16">
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+      </div>
+      <div class="col-lg-12">
+        <h2 class="h3">4.网红新纪元</h2>
+      </div>
+      <div>
+        <p>&nbsp;</p>
+        <p class="text-big">
+          随着健康概念的普及，人们对健康的关注正在影响零食的大趋势，优选原料、“不添加香精、色素“、更健康是消费者对雪糕提出的新要求，雪糕逐渐走向营养化、健康化、趣味化、高端化。在保证雪糕口味的基础上，要减少构成雪糕口味最重要的成分——糖和脂肪，而这是一件考验技术和原料质量的事，因此，大部分低糖雪糕都会比常规雪糕的价格贵。
+          <br> 艾媒咨询调研数据显示，对于市面上推出的新口味冰淇淋，<span style="font-weight: bold">60.2%</span>消费者持积极态度，表示会“第一时间去尝鲜”。对于无糖冰淇淋，将近<span style="font-weight: bold">八成</span>消费者表示会购买，其中<span style="font-weight: bold">39.3%</span>表示“很愿意购买”。
+        </p>
+      </div>
+      <div class="container-fluid p-0">
+        <div class="row no-gutters popup-gallery">
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/w1.jpg">
+              <img class="img-fluid" src="img/w1.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    2016年以来
+                  </div>
+                  <div class="project-name">
+                    雪糕被赋予更多文化价值
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/w2.jpg">
+              <img class="img-fluid" src="img/w2.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    2016年以来
+                  </div>
+                  <div class="project-name">
+                    冰柜里再难找到物美价廉的雪糕
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/w3.jpg">
+              <img class="img-fluid" src="img/w3.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    2016年以来
+                  </div>
+                  <div class="project-name">
+                    网红品牌争奇斗艳
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/w4.jpg">
+              <img class="img-fluid" src="img/w4.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    2016年以来
+                  </div>
+                  <div class="project-name">
+                    健康安全成为消费新追求
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/w5.jpg">
+              <img class="img-fluid" src="img/w5.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    2016年以来
+                  </div>
+                  <div class="project-name">
+                    真材实料才是实力
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/w6.jpg">
+              <img class="img-fluid" src="img/w6.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    2016年以来
+                  </div>
+                  <div class="project-name">
+                    口味仍然是重中之重
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <p>&nbsp;</p>
+      <div id="main" style="width: 1200px;height: 500px;"></div>
+      <p>&nbsp;</p>
+      <div class="col-lg-16">
+        <div>
+          <p class="text-big">
+            曾经受制于国民收入、消费习惯等因素影响，作为季节性消费的雪糕，近几年不知不觉中成为"健康+个性+文创"等多重属性附加于一身的体验式消费产品，价格也水涨船高。归根结底，冰激凌集体涨价已成为事实，市场上各式定位的品牌产品背后透露出的，是人们生活水平的提高和消费升级。
+          </p>
+        </div>
+        <div>
+          <p>&nbsp;</p>
+          <p>数据来源：</p>
+          <p>2022中国雪糕市场发展洞察及舆情分析报告(洞见研报DJyanbao.com)<br>
+            《中国冰淇淋市场深度评估及发展趋势预测报告》（2022）——中国绿色食品协会<br>
+            《中国市场与媒体研究》（CMMS）<br>
+            GlobalData<br>
+            企查查<br>
+          </p>
+          <p>小组成员：周钰 陈佳慧<br>
+          指导老师：吴小坤<br>
+          学校：华南理工大学</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- 4 -->
+
+
+
+
+
+<!-- JavaScript files-->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/popper.js/umd/popper.min.js"> </script>
+<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
+<script src="vendor/@fancyapps/fancybox/jquery.fancybox.min.js"></script>
+<script src="js/front.js"></script>
+<script src="js/echarts.js"></script>
+<script src="js/charts.js"></script>
+<script src="js/china.js"></script>
+<script src="js/map.js"></script>
+<script src="js/ice.js"></script>
+<script src="js/shichang.js"></script>
+</body>
+</html>
